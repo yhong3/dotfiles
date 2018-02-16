@@ -84,6 +84,9 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# for solarized color dir
+eval `dircolors ~/.dir_colors/dircolors`
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'

@@ -2,7 +2,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files=".bashrc .vimrc .vim"        # list of files/folders to symlink in homedir
+files=".bash_profile .bashrc .vimrc .vim"        # list of files/folders to symlink in homedir
 
 ##########
 
@@ -24,5 +24,13 @@ for file in $files; do
     ln -s $dir/$file ~/$file
 done
 
+source ~/.bash_profile
 source ~/.bashrc
-source ~/.vimrc
+# source ~/.vimrc
+
+# install vundle
+vim +PluginInstall +qall
+
+# install solarized
+mkdir ~/.vim/colors/
+mv ~/.vim/bundle/vim-colors-solarized/colors/solarized.vim ~/ .vim/colors/

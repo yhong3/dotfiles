@@ -44,9 +44,12 @@ syntax enable
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+
+
 set background=dark
-"let g:solarized_termcolors=256
+let g:solarized_termcolors=256
 colorscheme solarized
+call togglebg#map("<F5>")
 
 set nocompatible          " get rid of Vi compatibility mode. SET FIRST!
 filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
