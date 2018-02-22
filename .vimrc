@@ -31,7 +31,7 @@ Plugin 'Valloric/YouCompleteMe'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-syntax enable
+
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
@@ -46,23 +46,17 @@ syntax enable
 
 
 
-" set background=light
+set background=dark
 set t_Co=256              " enable 256-color mode.
-set t_AB=^[[48;5;%dm
-set t_AF=^[[38;5;%dm
-
-hi Normal ctermbg=none
-let g:solarized_termcolors=256
+" set t_AB=^[[48;5;%dm
+" set t_AF=^[[38;5;%dm
+" let g:solarized_termcolors=256
 colorscheme solarized
 call togglebg#map("<F5>")
-
-set nocompatible          " get rid of Vi compatibility mode. SET FIRST!
-filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
 
 syntax enable             " enable syntax highlighting (previously syntax on).
 set number                " show line numbers
 set laststatus=2          " last window always has a statusline
-filetype indent on        " activates indenting for files
 set nohlsearch            " Don't continue to highlight searched phrases.
 set incsearch             " But do highlight as you type your search.
 set ignorecase            " Make searches case-insensitive.
