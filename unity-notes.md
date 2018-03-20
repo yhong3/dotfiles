@@ -17,7 +17,7 @@ Some useful info here https://www.reddit.com/r/Unity3D/comments/77azfb/i_cant_ge
 2. In Android Studio, Install Sdk tools from settings if not installed 
 3. In Unity, point SDK to C:\Users\<username>\AppData\Local\Android\Sdk
 4. substitute original android sdk\tools folder to tools_r25.2.5-windows, so 
-  1. sdk\tools -> sdk\tools_r28
-  2. `<downloaded r25 tools folder>` -> sdk\tools
+    * sdk\tools -> sdk\tools_r28
+    * `<downloaded r25 tools folder>` -> sdk\tools
 5. install jdk 8 and point JDK to JDK 8 folder in Unity
 6. In `Unity > build setting`, change from `gradle` to `internal`
