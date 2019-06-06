@@ -28,3 +28,8 @@ Click Modify at the bottom right
 
 ## TODO
 1. Check if unity use x64 or x86 opencv
+2. (optional) build for static? 
+https://stackoverflow.com/questions/24096329/opencv-unity3d-integration
+https://stackoverflow.com/questions/7583172/opencv-as-a-static-library-cmake-options
+https://stackoverflow.com/questions/29740613/how-to-use-opencv-in-unity3d
+https://www.youtube.com/watch?v=m-QPjO-2IkA
