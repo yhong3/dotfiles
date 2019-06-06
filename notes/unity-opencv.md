@@ -5,7 +5,9 @@ https://thomasmountainborn.com/2016/09/11/unity-and-opencv-part-one-install/
 3. Run CMake.exe
     - "Browse source" to opencv\sources
     - "Browse build" to some temp folder
-    - "Configure" to choose installed visual studio version
+    - "Configure" to
+        1. choose installed visual studio version (e.g. Visual studio 15 2017),
+        2. **Optional platform for generator** = x64 for 64bit, default was Win32 
     - "Generate" to build
 
 If failed with 
@@ -20,3 +22,9 @@ Go to Tools -> Get Tools and Features
 In the "Workloads" tab enable "Desktop development with C++"
 Click Modify at the bottom right
 ```
+4. Open "opencv.sln" in the build folder, let it scan for a while, wait until it said "Ready"
+5. find "INSTALL", right-click and "Set as a Startup project"
+
+
+## TODO
+1. Check if unity use x64 or x86 opencv
