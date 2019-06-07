@@ -30,6 +30,7 @@ Click Modify at the bottom right
 
 opencv-python
 problem on loading avi file using cap = cv2.VideoCapture('vtest.avi')
+may show error: OpenCV(4.1.0) C:\temp\opencv-4.1.0\modules\imgproc\src\color.cpp:182: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
 -> ffmpeg is not set up correctly [Source](https://stackoverflow.com/questions/42191058/opencv-python-installation-missing-ffmpeg-windows)
 
 ## TODO
