@@ -26,6 +26,12 @@ Click Modify at the bottom right
 5. find "INSTALL", right-click and "Set as a Startup project"
 
 
+
+
+opencv-python
+problem on loading avi file using cap = cv2.VideoCapture('vtest.avi')
+-> ffmpeg is not set up correctly [Source](https://stackoverflow.com/questions/42191058/opencv-python-installation-missing-ffmpeg-windows)
+
 ## TODO
 1. Check if unity use x64 or x86 opencv
 2. (optional) build for static? 
