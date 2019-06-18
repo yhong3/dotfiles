@@ -1,4 +1,5 @@
-https://thomasmountainborn.com/2016/09/11/unity-and-opencv-part-one-install/
+[Build opencv and hook to unity from scratch by Thomas Moutain](https://thomasmountainborn.com/2016/09/11/unity-and-opencv-part-one-install/)
+And [a thread for it (find sample unit file here)](https://forum.unity.com/threads/tutorial-using-c-opencv-within-unity.459434/)
 
 1. Download OpenCV (current 4.1.0), extract file to some temp folder
 2. Download CMake, extract to some temp folder
@@ -41,3 +42,5 @@ https://stackoverflow.com/questions/24096329/opencv-unity3d-integration
 https://stackoverflow.com/questions/7583172/opencv-as-a-static-library-cmake-options
 https://stackoverflow.com/questions/29740613/how-to-use-opencv-in-unity3d
 https://www.youtube.com/watch?v=m-QPjO-2IkA
+
+[OpenCV tutorial](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_feature2d/py_features_meaning/py_features_meaning.html#features-meaning)
