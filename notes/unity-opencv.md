@@ -43,4 +43,11 @@ https://stackoverflow.com/questions/7583172/opencv-as-a-static-library-cmake-opt
 https://stackoverflow.com/questions/29740613/how-to-use-opencv-in-unity3d
 https://www.youtube.com/watch?v=m-QPjO-2IkA
 
-[OpenCV tutorial](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_feature2d/py_features_meaning/py_features_meaning.html#features-meaning)
+
+### helpful links
+[OpenCV official tutorial](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_feature2d/py_features_meaning/py_features_meaning.html#features-meaning)
+
+[official cascade classfier sample code](https://docs.opencv.org/2.4/doc/tutorials/objdetect/cascade_classifier/cascade_classifier.html)
+
+[template matching](https://docs.opencv.org/trunk/d4/dc6/tutorial_py_template_matching.html)
+[python image recognition bot](https://medium.com/@martin.lees/image-recognition-for-automation-with-python-711ac617b4e5)
