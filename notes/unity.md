@@ -25,3 +25,5 @@ Some useful info here https://www.reddit.com/r/Unity3D/comments/77azfb/i_cant_ge
 
 ### Ramble
 - Canvas size real time synced with game view
+- Press Alt and shift when anchoring for alignment snapping
+- [Good responsive UI tutorial for Auto resizing UI] (https://www.febucci.com/2018/10/unity-ui-tutorial/)
