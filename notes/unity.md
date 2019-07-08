@@ -21,3 +21,7 @@ Some useful info here https://www.reddit.com/r/Unity3D/comments/77azfb/i_cant_ge
     * `<downloaded r25 tools folder>` -> sdk\tools
 5. install jdk 8 and point JDK to JDK 8 folder in Unity
 6. In `Unity > build setting`, change from `gradle` to `internal`
+
+
+### Ramble
+- Canvas size real time synced with game view
