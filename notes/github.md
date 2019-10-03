@@ -20,3 +20,6 @@ Use ```git pull upstream master``` to pull changes from the other repository to 
 
 ## Add gitignore
 https://stackoverflow.com/questions/19663093/apply-gitignore-on-an-existing-repository-already-tracking-large-number-of-files
+
+# Issue labels
+https://blog.adam-marsden.co.uk/better-github-labels-f1360b43e0a7
