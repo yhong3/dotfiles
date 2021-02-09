@@ -1,0 +1,4 @@
+from https://mattwidmann.net/notes/updating-prusa-i3-mk3s-firmware-with-octoprint/index.html#:~:text=Download%20the%20firmware%20file%20from,available%3A%20sudo%20apt%20install%20avrdude%20.
+Updating Prusa i3 MK3S firmware with OctoPrint
+
+Download the firmware file from Prusa’s downloads page and decompress it. OctoPrint should have the Firmware Updater plugin installed, and the Raspberry Pi needs the avrdude binary available: sudo apt install avrdude. In OctoPrint, go to the plugin settings for Firmware Updater and select the .hex file from the firmware archive for the “flash from file” form. The wrench icon in the top right corner of the window controls how the firmware is flashed. The Prusa uses the avrdude flash method, the AVR MCU is ATmega2560, path to avrdude is /usr/bin/avrdude, and the AVR programmer type is wiring.
