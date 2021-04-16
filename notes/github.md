@@ -23,3 +23,13 @@ https://stackoverflow.com/questions/19663093/apply-gitignore-on-an-existing-repo
 
 # Issue labels
 https://blog.adam-marsden.co.uk/better-github-labels-f1360b43e0a7
+
+# [Make the current Git branch a master branch](https://stackoverflow.com/questions/2763006/make-the-current-git-branch-a-master-branch)
+```
+git checkout better_branch
+git merge --strategy=ours --no-commit master
+git commit          # add information to the template merge message
+git checkout master
+git merge better_branch             # fast-forward master up to the merge
+git push
+```
